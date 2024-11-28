@@ -1,0 +1,39 @@
+body{
+    
+
+
+
+}
+
+header{
+    background-color: rgb(5, 134, 22);
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: aliceblue;
+    
+}
+
+*{
+    margin: 0;
+}
+
+.rodape{
+    background-color: rgb(5, 134, 22);
+    position: relative;
+    top: 770px;
+    padding: 25px;
+}
+
+.milho a{
+    text-decoration: none;
+
+}
+.mamao a{
+    text-decoration: none;
+
+}
+.abobora a{
+    text-decoration: none;
+
+}
