@@ -1,7 +1,4 @@
 body{
-    
-
-
 
 }
 
@@ -13,6 +10,10 @@ header{
     color: aliceblue;
     
 }
+.subtitulo{
+    text-align: center;
+    margin: 40px;
+}
 
 *{
     margin: 0;
@@ -21,13 +22,13 @@ header{
 .rodape{
     background-color: rgb(5, 134, 22);
     position: relative;
-    top: 770px;
+    top: 200px;
     padding: 25px;
 }
 
 .milho a{
     text-decoration: none;
-
+    
 }
 .mamao a{
     text-decoration: none;
@@ -35,5 +36,26 @@ header{
 }
 .abobora a{
     text-decoration: none;
+}
 
+.milho{
+    margin: 10px;
+    padding-top: 40px;
+    margin-left: 80px;
+    text-align: left;
+}
+.imgMilho{
+}
+
+.mamao{
+    margin: 10px;
+   margin-top: -100px;
+    text-align: center;
+}
+
+.abobora{
+    margin: 10px;
+    margin-top: -100px;
+    text-align: right;
+    margin-right: 80px;
 }
