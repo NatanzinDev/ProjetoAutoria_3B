@@ -3,30 +3,43 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #ffffff;
 }
 
 header{
-    background-color: rgb(5, 134, 22);
+    
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     font-size: 25px;
     color: aliceblue;
+    background-color: #0b4007;
+
     
 }
+.carrinho{
+    float: right;
+    position: relative;
+    bottom: 50px;
+}
 .subtitulo{
-    text-align: center;
-    margin: 40px;
+    margin-right: 1100px;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #0b4007;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 *{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .rodape{
-    background-color: rgb(5, 134, 22);
+    background-color: #0b4007;
     position: relative;
     top: 200px;
-    padding: 25px;
+    padding: 40px;
 }
 
 .milho a{
@@ -41,36 +54,65 @@ header{
     text-decoration: none;
 }
 .produtos{
-
+    margin-top: 100px;
     display: flex;
     gap: 150px;
     justify-content: center;
-    
+    padding: 60px;
+    background-color: #062003;
 }
 
 .milho{
    text-align: center;
-    border: solid green 30px;
-    border-radius: 30px;
+   
     
 }
+.tituloMilho{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 1px;
+  }
 .imgMilho{
-
-    
+    width: 250px;
+    border-radius: 30px;
+   
 }
 
 .mamao{
-   text-align: center;
-   border: solid green 30px;
-   border-radius: 30px;
+   
+   
+    
+}
+.tituloMamao{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  margin-top: 1px;
+}
+.imgMamao{
+    border: solid green px;
+    border-radius: 30px;
+    width: 250px;
+  
     
 }
 
+
+
 .abobora{
     text-align: center;
-    border: solid green 30px;
-    border-radius: 30px;
-   
     
+}
+.tituloAbobora{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 1px;
+  }
+
+.imgAbobora{
+    border-radius: 30px;
+    width: 250px;
 }
 
