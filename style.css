@@ -3,7 +3,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ffffff;
+    background-color: #0a300561;
 }
 
 header{
@@ -20,6 +20,10 @@ header{
     float: right;
     position: relative;
     bottom: 50px;
+}
+.logoInstagram{
+   
+
 }
 .subtitulo{
     margin-right: 1100px;
@@ -40,6 +44,32 @@ header{
     position: relative;
     top: 200px;
     padding: 40px;
+}
+.tituloRodape{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+.zap{
+    text-align: left;
+    margin-left: 670px;
+    position: relative;
+    bottom: -30px;
+    
+}
+.Pzap{
+color: white;
+text-align: left;
+margin-left: 730px;
+
+}
+
+.email{
+    color: white;
+    text-align: right;
+    position: relative;
+    bottom: 20px;
+    margin-right: 550px;
 }
 
 .milho a{
