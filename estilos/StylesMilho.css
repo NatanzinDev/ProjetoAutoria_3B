@@ -1,14 +1,92 @@
-body{
-    background-image: url();
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+:root{
+    --fundo: #0a300561;
+    --centro: #0b4007;
+}
+.imgmilho{
+    width: 300px;
+    height: 400px;
 }
 
-header{
-    background-color: rgb(5, 134, 22);
+body{
+    background: var(--fundo);
+}
+
+.box{
+    display: flex;
     text-align: center;
-    padding: 20px;
-    font-size: 25px;
-    color: aliceblue;
+    background-color: #062003;
+    border-radius: 10px;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 150px;
+    color: white;
+}
+
+.titulo{
+    font-size: 30pt;
+    position: absolute;
+    right: 550px;
+    color: white;
+}
+
+#quantidade{
+    position: relative;
+    border: 0;
+    left: 150px;
+    cursor: text;
+    outline: 0;
+    font-size: 18pt;
+   
+    
+}
+
+div input[type='number']::-webkit-inner-spin-button,
+div input[type='number']::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form{
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    
+
+}
+
+.lquantidade{
+    font-size: 20pt;   
+}
+
+.mais{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 100px;
+    
+}
+
+.menos{
+    position: relative;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    left: 130px;
+    
+} 
+
+.btcompra{
+    position: relative;
+    margin-top: 10px;
+    left: 10px;
+    border-radius: 20px;
+    border-color: white;
+    
+    
+}
+/*aumenta o produto que estar com o mouse em cima*/
+.btcompra:hover{
+    transform: scale(1.5,1.5);
 }

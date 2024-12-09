@@ -111,7 +111,6 @@ margin-left: 730px;
 
 .mamao{
    
-   
     
 }
 .tituloMamao{
@@ -124,7 +123,7 @@ margin-left: 730px;
     border: solid green px;
     border-radius: 30px;
     width: 250px;
-  
+    
     
 }
 
@@ -150,5 +149,16 @@ margin-left: 730px;
 .produtos:hover > :not(:hover){
     opacity: .3;
     fill: blur(50px);
+}
+/*aumenta o produto que estar com o mouse em cima*/
+
+.milho:hover{
+    transform: scale(1.2);
+}
+.mamao:hover{
+    transform: scale(1.2);
+}
+.abobora:hover{
+    transform: scale(1.2);
 }
 

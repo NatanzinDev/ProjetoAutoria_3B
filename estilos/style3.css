@@ -14,19 +14,21 @@ body{
 .box{
     display: flex;
     text-align: center;
-    background: white;
+    background-color: #062003;
     border-radius: 10px;
     padding: 15px;
     width: 800px;
     margin: auto;
     box-shadow: 2px 2px 2px black;
     margin-top: 150px;
+    color: white;
 }
 
 .titulo{
     font-size: 30pt;
     position: absolute;
     right: 550px;
+    color: white;
 }
 
 #quantidade{
@@ -50,6 +52,7 @@ form{
     position: absolute;
     top: 300px;
     right: 500px;
+    
 
 }
 
@@ -62,6 +65,7 @@ form{
     height: 20px;
     position: relative;
     right: 100px;
+    
 }
 
 .menos{
@@ -77,6 +81,14 @@ form{
     position: relative;
     margin-top: 10px;
     left: 10px;
+    border-radius: 20px;
+    border-color: white;
+    
+    
+}
+/*aumenta o produto que estar com o mouse em cima*/
+.btcompra:hover{
+    transform: scale(1.5,1.5);
 }
 
 
