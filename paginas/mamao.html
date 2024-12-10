@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compre mamão</title>
-    <link rel="stylesheet" href="../estilos/style3.css">
+    <link rel="stylesheet" href="../estilos/styleMamao.css">
 </head>
 <body>
     <div class="box">
-        <img src="imagens/imagem do mamao.jpg" alt="mamao" class="imgmamao">
+        <img src="../imagens/imagem do mamao.jpg" alt="mamao" class="imgmamao">
 
         <p class="titulo">MAMÃO</p>
 
         <form action="" class="formulario">
             <label for="quantidade" class="lquantidade">QUANTIDADE</label><br>
-            <img src="../imagens/menos.png" alt="dim" class="menos" onclick="subtrair()">
+            <img src="../imagens/MenosBranco.png" alt="dim" class="menos" onclick="subtrair()">
             <input type="number" name="quantidaded" id="quantidade" value="0">
-            <img src="../imagens/mais.png" alt="aumentar" class="mais" onclick="somar()"><br>
+            <img src="../imagens/MaisBranco.png" alt="aumentar" class="mais" onclick="somar()"><br>
             <input type="button" value="Continuar compra" class="btcompra">
         </form>
+        <div>
+            <p class="atencao">
+                ATENÇÃO!
+            </p>
+            <p class="quant">
+                A QUANTIDADE EQUIVALE A 1000 UNIDADES
+            </p>
+        </div>
     </div>
+   
 
     <script src="script.js"></script>
 </body>

@@ -61,7 +61,11 @@ header{
 color: white;
 text-align: left;
 margin-left: 730px;
+}
 
+.Pzap a{
+    text-decoration: none;
+    color: white;
 }
 
 .email{
