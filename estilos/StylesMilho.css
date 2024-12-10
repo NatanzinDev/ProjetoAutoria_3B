@@ -102,14 +102,21 @@ form{
 .atencao{
     margin-top: 330px;
     position: relative;
-    margin-left: 180px;
+    margin-left: -80px;
     color: #ffc802;
     top: 10px;
    
 }
 .quant{
     position: relative;
-    left: 90px;
+    left: -30px;
     color: #ffc802;
     
+}
+
+.preco{
+    font-size: 20pt;
+    position: relative;
+    margin-top: 100px;
+    left: 180px;
 }
