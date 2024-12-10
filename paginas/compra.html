@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,42 +20,42 @@
     <section class="compra">
         <h2>Informe seus dados para finalizar a compra</h2>
         <form action="">
-            <p>
+            <p class="Nomee">
                 <label for="inome">Nome:</label>
                 <input type="text" name="nome" id="inome">
             </p>
-            <p>
+            <p class="Sobrenomee">
                 <label for="isobrenome">Sobrenome:</label>
                 <input type="text" name="sobrenome" id="isobrenome">
             </p>
-            <p>
+            <p class="Cepp">
                 <label for="icep">CEP:</label>
                 <input type="text" name="cep" id="icep">
             </p>
-            <p>
+            <p class="Enderecoo">
                 <label for="">Endereço:</label>
                 <input type="text" name="endereco" id="iendereco">
             </p>
-            <p>
+            <p class="Numeroo">
                 <label for="inúmero">Número:</label>
                 <input type="text" name="numero" id="inumero">
             </p>
 
-            <p>
+            <p class="Emaill">
                 <label for="iemail">Email:</label>
                 <input type="text" name="email" id="iemail">
             </p>
 
-            <p>
+            <p class="Cpff">
                 <label for="inúmero">CPF:</label>
                 <input type="text" name="cpf" id="icpf">
             </p>
 
-            <p>
+            <p class="Telefonee">
                 <label for="itelefone">Telefone:</label>
                 <input type="text" name="telefone" id="itelefone">
             </p>
-            <p>Escolha a forma de pagamento</p>
+            <p class="forma">Escolha a forma de pagamento</p>
            <p>
                 <input type="radio" name="pagamento" id="ipix">
                 <label for="pagamento">PIX</label>
@@ -64,7 +64,9 @@
                 <input type="radio" name="pagamento" id="idebito">
                 <label for="pagamento">Débito</label>
            </p>
+           <div class="finalizarCompra">
            <input type="submit"  class="bt_finalizar" value="Finalizar compra" onclick="validar()">
+        </div>
         </form>
 
 

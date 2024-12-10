@@ -14,7 +14,7 @@
     text-align: center;
     background: var(--centro);
     border-radius: 10px;
-    padding: 15px;
+    padding: 35px;
     width: 500px;
     margin: auto;
     box-shadow: 2px 2px 2px black;
@@ -48,3 +48,93 @@ header{
     margin-bottom: 25px;
     margin-top: 25px;
 }
+/* aumenta o tamanho dos imputs e dar um espaçamento entre eles*/
+.Nomee{
+    padding: 20px;
+}
+#inome{
+    padding: 8px;
+
+}
+.Sobrenomee{
+    padding: px;
+    position: relative;
+    right: 20px;
+}
+#isobrenome{
+    padding: 8px;
+
+}
+.Cepp{
+    padding: 20px;
+    position: relative;
+    left: 4px;
+}
+#icep{
+    padding: 8px;
+
+}
+.Enderecoo{
+    padding: px;
+    position: relative;
+    right: 14px;
+}
+#iendereco{
+    padding: 8px;
+
+}
+.Numeroo{
+    padding: 20px;
+    position: relative;
+    right: 8px;
+}
+#inumero{
+    padding: 8px;
+
+}
+.Emaill{
+    padding: 0px;
+}
+#iemail{
+    padding: 8px;
+
+}
+.Cpff{
+    padding: 20px;
+    position: relative;
+    left: 4px;
+}
+#icpf{
+    padding: 8px;
+
+}
+.Telefonee{
+    padding: 0px;
+    position: relative;
+    right: 10px;
+}
+#itelefone{
+    padding: 8px;
+
+}
+
+.forma{
+    font-size: 25px;
+    padding: 20px;
+    color: #f3ef09dd;
+}
+
+
+.bt_finalizar{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: white;
+}
+
+.bt_finalizar:hover{
+    transform: scale(1.2,1.2);
+}
+
+
