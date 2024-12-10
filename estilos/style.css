@@ -1,0 +1,168 @@
+body{
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0a300561;
+}
+
+header{
+    
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: #0b4007;
+
+    
+}
+.carrinho{
+    float: right;
+    position: relative;
+    bottom: 50px;
+}
+.logoInstagram{
+   
+
+}
+.subtitulo{
+    margin-right: 1100px;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #0b4007;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape{
+    background-color: #0b4007;
+    position: relative;
+    top: 200px;
+    padding: 40px;
+}
+.tituloRodape{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+.zap{
+    text-align: left;
+    margin-left: 670px;
+    position: relative;
+    bottom: -30px;
+    
+}
+.Pzap{
+color: white;
+text-align: left;
+margin-left: 730px;
+}
+
+.Pzap a{
+    text-decoration: none;
+    color: white;
+}
+
+.email{
+    color: white;
+    text-align: right;
+    position: relative;
+    bottom: 20px;
+    margin-right: 550px;
+}
+
+.milho a{
+    text-decoration: none;
+    
+}
+.mamao a{
+    text-decoration: none;
+
+}
+.abobora a{
+    text-decoration: none;
+}
+.produtos{
+    margin-top: 100px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    padding: 60px;
+    background-color: #062003;
+}
+
+.milho{
+   text-align: center;
+   
+    
+}
+.tituloMilho{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 1px;
+  }
+.imgMilho{
+    width: 250px;
+    border-radius: 30px;
+   
+}
+
+.mamao{
+   
+    
+}
+.tituloMamao{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 1px;
+}
+.imgMamao{
+    border: solid green px;
+    border-radius: 30px;
+    width: 250px;
+    
+    
+}
+
+
+
+.abobora{
+    text-align: center;
+    
+}
+.tituloAbobora{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 1px;
+  }
+
+.imgAbobora{
+    border-radius: 30px;
+    width: 250px;
+}
+
+/* destaca o produto que está com mouse em cima*/
+.produtos:hover > :not(:hover){
+    opacity: .3;
+    fill: blur(50px);
+}
+/*aumenta o produto que estar com o mouse em cima*/
+
+.milho:hover{
+    transform: scale(1.2);
+}
+.mamao:hover{
+    transform: scale(1.2);
+}
+.abobora:hover{
+    transform: scale(1.2);
+}
+

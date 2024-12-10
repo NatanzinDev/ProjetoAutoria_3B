@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compra de milho</title>
-    <link rel="stylesheet" href="StylesMilho.css">
+    <link rel="stylesheet" href="../estilos/StylesMilho.css">
 </head>
-<body class="">
+<body>
 
-    <header class="">
-       <h1>MILHO</h1>
-    </header>
+    <div class="box">
+        <img src="../imagens/imagem do milho.jpg" alt="milho" class="imgmilho">
 
+        <p class="titulo">MILHO</p>
+        <p class="preco">R$ 350,00</p>
+        <form action="" class="formulario">
+            <label for="quantidade" class="lquantidade">QUANTIDADE</label><br>
+            <img src="../imagens/MenosBranco.png" alt="dim" class="menos" onclick="subtrair()">
+            <input type="number" name="quantidaded" id="quantidade" value="0">
+            <img src="../imagens/MaisBranco.png" alt="aumentar" class="mais" onclick="somar()"><br>
+            <input type="button" value="Continuar compra" class="btcompra">
+        </form>
 
-    
+        <div>
+            <p class="atencao">
+                ATENÇÃO!
+            </p>
+            <p class="quant">
+                A QUANTIDADE EQUIVALE A 1000 ESPIGAS
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

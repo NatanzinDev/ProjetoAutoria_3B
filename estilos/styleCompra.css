@@ -1,0 +1,50 @@
+:root{
+    --fundo: #0a300561;
+    --centro: #0b4007;
+}
+
+*{
+    margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.compra{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: var(--centro);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    
+}
+
+body{
+    text-align: center;
+    background: var(--fundo);
+}
+
+header{
+    font-size: 25pt;
+    color: white;
+    background-color: var(--centro);
+    padding: 40px;
+}
+
+.carrinho{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: var(--centro);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
