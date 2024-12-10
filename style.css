@@ -13,7 +13,7 @@ header{
     font-size: 25px;
     color: aliceblue;
     background-color: #0b4007;
-
+    
     
 }
 .carrinho{
@@ -26,7 +26,7 @@ header{
 
 }
 .subtitulo{
-    margin-right: 1100px;
+    margin-right: 540px;
     margin-top: 60px;
     color: rgb(255, 255, 255);
     background-color: #0b4007;
@@ -95,7 +95,6 @@ margin-left: 730px;
 .milho{
    text-align: center;
    
-    
 }
 .tituloMilho{
     text-align: center;
@@ -124,7 +123,6 @@ margin-left: 730px;
     border: solid green px;
     border-radius: 30px;
     width: 250px;
-  
     
 }
 
