@@ -33,24 +33,42 @@
                 <input type="text" name="cep" id="icep">
             </p>
             <p>
-                <label for="">Endereço</label>
+                <label for="">Endereço:</label>
                 <input type="text" name="endereco" id="iendereco">
             </p>
             <p>
-                <label for="inúmero">Número</label>
+                <label for="inúmero">Número:</label>
                 <input type="text" name="numero" id="inumero">
+            </p>
+
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="text" name="email" id="iemail">
+            </p>
+
+            <p>
+                <label for="inúmero">CPF:</label>
+                <input type="text" name="cpf" id="icpf">
+            </p>
+
+            <p>
+                <label for="itelefone">Telefone:</label>
+                <input type="text" name="telefone" id="itelefone">
             </p>
             <p>Escolha a forma de pagamento</p>
            <p>
-                <input type="radio" name="pix" id="ipix">
-                <label for="ipix">PIX</label>
-                <input type="radio" name="credito" id="icredito">
-                <label for="icredito">Crédito</label>
-                <input type="radio" name="debito" id="idebito">
-                <label for="ipix">Débito</label>
+                <input type="radio" name="pagamento" id="ipix">
+                <label for="pagamento">PIX</label>
+                <input type="radio" name="pagamento" id="icredito">
+                <label for="pagamento">Crédito</label>
+                <input type="radio" name="pagamento" id="idebito">
+                <label for="pagamento">Débito</label>
            </p>
-           <input type="button"  class="bt_finalizar" value="Finalizar compra">
+           <input type="submit"  class="bt_finalizar" value="Finalizar compra" onclick="validar()">
         </form>
+
+
+        <div class="texto"></div>
     </section>
 
     <script src="script.js"></script>
