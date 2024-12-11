@@ -1,8 +1,4 @@
 body{
-    background-image: url();
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-color: #0a300561;
 }
 
@@ -21,10 +17,7 @@ header{
     position: relative;
     bottom: 50px;
 }
-.logoInstagram{
-   
 
-}
 .subtitulo{
     margin-right: 1100px;
     margin-top: 60px;
@@ -40,13 +33,13 @@ header{
 }
 
 .rodape{
-    background-color: #0b4007;
+    background-color: #082b05;
     position: relative;
     top: 200px;
     padding: 40px;
 }
 .tituloRodape{
-    color: white;
+    color: rgba(249, 187, 0, 0.985);
     text-align: center;
     margin-top: -20px;
 }
@@ -61,6 +54,8 @@ header{
 color: white;
 text-align: left;
 margin-left: 730px;
+position: relative;
+top: -5px;
 }
 
 .Pzap a{
@@ -106,6 +101,7 @@ margin-left: 730px;
     font-size: 30px;
     color: rgb(255, 255, 255);
     margin-top: 1px;
+    letter-spacing: 3px;
   }
 .imgMilho{
     width: 250px;
@@ -122,6 +118,7 @@ margin-left: 730px;
   font-size: 30px;
   color: rgb(255, 255, 255);
   margin-top: 1px;
+  letter-spacing: 3px;
 }
 .imgMamao{
     border: solid green px;
@@ -142,6 +139,7 @@ margin-left: 730px;
     font-size: 30px;
     color: rgb(255, 255, 255);
     margin-top: 1px;
+    letter-spacing: 3px;
   }
 
 .imgAbobora{

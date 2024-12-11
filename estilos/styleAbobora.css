@@ -30,7 +30,8 @@ body{
     position: absolute;
     right: 720px;
     color: white;
-    
+    font-weight: bold;
+   letter-spacing: 4px;
 }
 
 #quantidade{

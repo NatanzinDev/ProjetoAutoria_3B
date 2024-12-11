@@ -1,6 +1,6 @@
 :root{
     --fundo: #0a300561;
-    --centro: #0b4007;
+    --centro: #092b06;
 }
 
 *{
@@ -18,7 +18,8 @@
     width: 500px;
     margin: auto;
     box-shadow: 2px 2px 2px black;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     
 }
 
@@ -44,11 +45,11 @@ header{
     width: 500px;
     margin: auto;
     box-shadow: 2px 2px 2px black;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 25px;
     margin-top: 25px;
 }
-/* aumenta o tamanho dos imputs e dar um espaçamento entre eles*/
+/* aumentar o tamanho dos imputs e dar um espaçamento entre eles*/
 .Nomee{
     padding: 20px;
 }
