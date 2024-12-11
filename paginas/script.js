@@ -6,7 +6,7 @@ const form = document.querySelector('#form')
 let quantidade = document.querySelector("#quantidade")
 let carrinho = document.querySelector(".carrinho")
 const nome = document.querySelector("#inome")
-const sobrenome = document.querySelector("#inome")
+const sobrenome = document.querySelector("#isobrenome")
 const cep = document.querySelector("#icep")
 const numero = document.querySelector("#inumero")
 const endereco = document.querySelector("#iendereco")
@@ -130,10 +130,7 @@ form.addEventListener("submit", (event) =>{
         alert(`Preencha com seu telefone`)
     }
 
-
-
-
-
+    
     form.submit();
     info()
 });
@@ -150,16 +147,11 @@ function validarEmail(e){
     return false
 }
 
+
+
 const modal = document.querySelector("dialog")
 //informações do comprador
 function info(){
-    let div = document.querySelector(".dialogdiv")
-    let op = document.createElement('p')
-    op.innerHTML = `Nome: ${nome.value} \n Sobrenome: ${sobrenome.value} \n CPF: ${cpf.value} \n Endereço ${endereco.value} \n CEP: ${cep.value} \n Telefone: ${telefone.value} `
-    div.appendChild(op)
-    modal.showModal()
+    confirm(`INFORMAÇÕES DO CLIENTE \n Nome: ${nome.value} \n Sobrenome: ${sobrenome.value} \n CPF: ${cpf.value} \n Endereço ${endereco.value} \n CEP: ${cep.value} \n Telefone: ${telefone.value} \n INTEGRAÇÃO DE PAGAMENTO EM BREVE...`)
 }
 
-function fechar(){
-    modal.close()
-}
