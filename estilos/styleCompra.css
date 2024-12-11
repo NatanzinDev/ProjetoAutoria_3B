@@ -1,13 +1,14 @@
+/* COR DE FUNDO */
 :root{
     --fundo: #0a300561;
     --centro: #092b06;
 }
-
+/* TODOS OS ELEMENTOS */
 *{
     margin: 0;
    font-family: Arial, Helvetica, sans-serif;
 }
-
+/* CAIXA PRINCIPAL */
 .compra{
     display: flex;
     flex-direction: column;
@@ -22,32 +23,17 @@
     font-weight: bold;
     margin-top: 50px;
 }
-
+/* COR DE FUNDO */
 body{
     text-align: center;
     background: var(--fundo);
 }
-
+/* CABEÇALHO */
 header{
     font-size: 25pt;
     color: white;
     background-color: var(--centro);
     padding: 40px;
-}
-
-.carrinho{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background: var(--centro);
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 2px 2px 2px black;
-    color: rgb(255, 255, 255);
-    margin-bottom: 25px;
-    margin-top: 25px;
 }
 /* aumentar o tamanho dos imputs e dar um espaçamento entre eles*/
 .Nomee{

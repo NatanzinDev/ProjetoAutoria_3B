@@ -1,7 +1,8 @@
+/* COR DE FUNDO DA PAGINA PRINCIPAL */
 body{
     background-color: #0a300561;
 }
-
+/* CABEÇALHO */
 header{
     
     text-align: center;
@@ -12,12 +13,13 @@ header{
 
     
 }
+/* ICONE DO CARRINHO */
 .carrinho{
     float: right;
     position: relative;
     bottom: 50px;
 }
-
+/* SUBTITULO */
 .subtitulo{
     margin-right: 1100px;
     margin-top: 60px;
@@ -26,23 +28,25 @@ header{
     padding: 15px;
     border-radius: 20px;
 }
-
+/* TODOS OS ELEMENTOS DA PAGINA */
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* ESTILO DO RODAPE */
 .rodape{
     background-color: #082b05;
     position: relative;
     top: 200px;
     padding: 40px;
 }
+/* TITULO DO RODAPE  */
 .tituloRodape{
     color: rgba(249, 187, 0, 0.985);
     text-align: center;
     margin-top: -20px;
 }
+/* ICONE DO WHATTSZAP */
 .zap{
     text-align: left;
     margin-left: 670px;
@@ -50,6 +54,7 @@ header{
     bottom: -30px;
     
 }
+/* NOME "WHATTSZAP" */
 .Pzap{
 color: white;
 text-align: left;
@@ -57,12 +62,7 @@ margin-left: 730px;
 position: relative;
 top: -5px;
 }
-
-.Pzap a{
-    text-decoration: none;
-    color: white;
-}
-
+/* EMAIL NO CABEÇALHO */
 .email{
     color: white;
     text-align: right;
@@ -70,18 +70,21 @@ top: -5px;
     bottom: 20px;
     margin-right: 550px;
 }
-
+/* TIRAR DECORAÇOES DO LINK DO MILHO */
 .milho a{
     text-decoration: none;
     
 }
+/* TIRAR DECORAÇOES DO LINK DO MAMAO */
 .mamao a{
     text-decoration: none;
 
 }
+/* TIRAR DECORAÇOES DO LINK DA ABOBORA */
 .abobora a{
     text-decoration: none;
 }
+/* ESTILO DOS PRODUTOS */
 .produtos{
     margin-top: 100px;
     display: flex;
@@ -90,12 +93,13 @@ top: -5px;
     padding: 60px;
     background-color: #062003;
 }
-
+/* PRODUTO MILHO */
 .milho{
    text-align: center;
    
     
 }
+/* TITULO DO PRODUTO MILHO */
 .tituloMilho{
     text-align: center;
     font-size: 30px;
@@ -103,16 +107,13 @@ top: -5px;
     margin-top: 1px;
     letter-spacing: 3px;
   }
+  /* IMAGEM DO MILHO */
 .imgMilho{
     width: 250px;
     border-radius: 30px;
    
 }
-
-.mamao{
-   
-    
-}
+/* TITULO DO PRODUTO MAMAO */
 .tituloMamao{
   text-align: center;
   font-size: 30px;
@@ -120,20 +121,17 @@ top: -5px;
   margin-top: 1px;
   letter-spacing: 3px;
 }
+/* IMAGEM DE PRODUTO MAMAO */
 .imgMamao{
     border: solid green px;
     border-radius: 30px;
-    width: 250px;
-    
-    
+    width: 250px; 
 }
-
-
-
+/* PRODUTO ABOBORA */
 .abobora{
     text-align: center;
-    
 }
+/* TITULO PRODUTO ABOBORA */
 .tituloAbobora{
     text-align: center;
     font-size: 30px;
@@ -141,7 +139,7 @@ top: -5px;
     margin-top: 1px;
     letter-spacing: 3px;
   }
-
+/* IMAGEM DO PRODUTO ABOBORA */
 .imgAbobora{
     border-radius: 30px;
     width: 250px;
