@@ -6,20 +6,23 @@
     <title>Confirmar compra</title>
     <link rel="stylesheet" href="../estilos/styleCompra.css">
 </head>
-<body>
+<body onload="carregar()">
     <header>
         <h1>Produtos selecionados</h1>
     </header>
 
-    <div class="carrinho">
-        <h2>
-            Seu carrinho está vazio!
-        </h2>
+    <div class="dialogedicao">
+        <dialog >
+            <h2>Suas Informações</h2>
+            <div class="dialogdiv"></div>
+            <p>Integrações para forma de pagamento futuramente...</p>
+            <button type="button" onclick="fechar()">Fechar</button>
+        </dialog>
     </div>
 
     <section class="compra">
         <h2>Informe seus dados para finalizar a compra</h2>
-        <form action="">
+        <form action="" id="form">
             <p class="Nomee">
                 <label for="inome">Nome:</label>
                 <input type="text" name="nome" id="inome">
@@ -65,7 +68,7 @@
                 <label for="pagamento">Débito</label>
            </p>
            <div class="finalizarCompra">
-           <input type="submit"  class="bt_finalizar" value="Finalizar compra" onclick="validar()">
+           <input type="submit"  class="bt_finalizar" value="Finalizar compra">
         </div>
         </form>
 
@@ -73,6 +76,8 @@
         <div class="texto"></div>
     </section>
 
-    <script src="script.js"></script>
+    
+
+    <script src="script.js" defer></script>
 </body>
 </html>

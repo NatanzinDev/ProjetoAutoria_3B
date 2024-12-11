@@ -20,7 +20,7 @@
     box-shadow: 2px 2px 2px black;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    
+    margin-top: 50px;
 }
 
 body{
@@ -136,6 +136,17 @@ header{
 
 .bt_finalizar:hover{
     transform: scale(1.2,1.2);
+}
+
+.texto{
+    margin-top: 10px;
+}
+
+.dialogedicao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
 }
 
 
